@@ -8,4 +8,4 @@ This repository holds my vim setup.
 1. Clone repository
 2. Create softlinks ~/.vimrc and ~/.vim that point to the /vimrc file and 
    the repository respectively.
-3. Pull to update.
+3. Push/Pull to update.
