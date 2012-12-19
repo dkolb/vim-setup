@@ -4,7 +4,13 @@ set backspace=indent,eol,start
 set title
 syntax on
 set colorcolumn=80
-set mouse=
+
+" If in GUI, use mouse, otherwise disable.
+if has('gui_running')
+    set mouse=a
+else
+    set mouse=
+endif
 
 "Read .vimrc, .exrc, and .gvimrc files in current directory.
 set exrc
@@ -43,4 +49,13 @@ let g:SuperTabDefaultCompletionType = "context"
 if has('gui_running')
     set background=dark
     colorscheme solarized
+endif
+
+" Start NERDTree every time in gui.
+if has('gui_running')
+    let NERDTreeShowBookmarks=1
+    let NERDTreeShowHidden=1
+    let NERDTreeMouseMode=2
+    autocmd VimEnter * NERDTree
+    autocmd VimEnter * wincmd p
 endif
