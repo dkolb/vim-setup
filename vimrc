@@ -22,6 +22,7 @@ inoremap kj <Esc>
 
 
 " Load modules
+runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 
 " Configure HTML Indent ~/.vim/bundle/indent-html
