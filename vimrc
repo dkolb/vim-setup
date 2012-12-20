@@ -39,7 +39,7 @@ let g:html_indent_script1 = "inc"
 let g:html_indent_style1  = "inc"
 
 " Configure JSHint
-let g:jshintconfig = "~/.vim/bundle/jshint/conf.json"
+let g:jshintconfig = "~/.vim/jshint-config.json"
 
 " Configure SuperTab
 let g:SuperTabDefaultCompletionType = "context"
