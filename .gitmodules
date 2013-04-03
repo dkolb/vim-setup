@@ -43,3 +43,6 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
+[submodule "bundle/matchtag"]
+	path = bundle/matchtag
+	url = git://github.com/gregsexton/MatchTag.git
