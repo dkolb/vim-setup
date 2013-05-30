@@ -46,3 +46,6 @@
 [submodule "bundle/matchtag"]
 	path = bundle/matchtag
 	url = git://github.com/gregsexton/MatchTag.git
+[submodule "bundle/vim-xmledit"]
+	path = bundle/vim-xmledit
+	url = git://github.com/sukima/xmledit.git
