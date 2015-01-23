@@ -49,3 +49,7 @@
 [submodule "bundle/vim-xmledit"]
 	path = bundle/vim-xmledit
 	url = git://github.com/sukima/xmledit.git
+[submodule "repos/puppet"]
+	path = repos/puppet
+	url = git@github.com:puppetlabs/puppet.git
+	branch = master
