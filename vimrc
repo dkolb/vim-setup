@@ -51,11 +51,14 @@ if has('gui_running')
     colorscheme solarized
 endif
 
-" Start NERDTree every time in gui.
+" Special NERDTree set up for GUI's.
 if has('gui_running')
-    let NERDTreeShowBookmarks=1
-    let NERDTreeShowHidden=1
     let NERDTreeMouseMode=2
-    autocmd VimEnter * NERDTree
-    autocmd VimEnter * wincmd p
 endif
+
+" Show NERDTree all the time.
+let NERDTreeShowBookmarks=1
+let NERDTreeShowHidden=1
+let NERDTreeIgnore = ['\.swp$']
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
